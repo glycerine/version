@@ -1,5 +1,5 @@
 
-default: version
+.PHONY: version
 
 version:
 	/bin/echo "package main" > gitcommit.go
